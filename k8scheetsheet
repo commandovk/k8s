@@ -1,5 +1,5 @@
-
 aws eks update-kubeconfig --region us-east-1 --name my-cluster 
+
 
 kubectl cluster-info 
 
@@ -118,4 +118,9 @@ yum -y install epel-release
 
 yum -y update
 
-yum install stress
+yum install stress 
+
+---------------------------------------------------------------------
+
+kubectl get ingress <ingress_name> 
+
